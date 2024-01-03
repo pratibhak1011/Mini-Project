@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="shortcut icon" href="images/logo2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Food Website Home </title>
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="header">
+
+            <div  class="headerbar">
+
+                  <div class="account">
+                   
+                            <ul>
+                                  <a href="">
+                                        <li>
+                                             <i class="fa-solid fa-house-chimney"></i>
+                                        </li>
+                                   </a>
+
+                                   <a href="#">
+                                        <li>
+                                            <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
+                                        </li>
+                                   </a>  
+
+                                  <div class="search" id="searchinput1">
+                                           <input type="search">
+                                           <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                                  </div>
+
+                                 <a href="">
+                                        <li>
+                                           <i class="fa-solid fa-user" id="user-mb"></i>
+                                        </li>
+                                 </a>
+
+                           </ul>
+                  </div>
+
+               <div class="nav">
+                   <ul>
+                         <a href="">
+                             <li>Home</li>
+                         </a>
+
+                         <a href="">
+                             <li>About</li>
+                         </a>
+
+                         <a href="">
+                            <li>Food Menu</li>
+                         </a>
+
+                        <a href="">
+                           <li>Book Table</li>
+                        </a>
+                  </ul>
+              </div>
+
+        </div>
+          
+
+
+            <div class="logo">
+              <img src="images/logo8.jpg" alt="logo">
+            </div>
+
+            <div class="bar">
+               <i class="fa-solid fa-bars"></i>
+               <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+
+            <div class="nav">
+
+              
+
+                <ul>
+                      <li class="brandName">"GOOD FOOD GOOD MOOD"</li>
+                    
+                      <a href="#">
+                        <li>Home</li>
+                      </a>
+                      
+                      <a href="#">
+                        <li>About</li>
+                      </a>
+
+                      <a href="#">
+                        <li>Food Menu</li>
+                      </a>
+
+                      <a href="#">
+                        <li>Book Table</li>
+                      </a>
+
+                </ul>
+
+            </div>
+
+            <div class="account">
+
+                <ul>
+                      <a href="#">
+                           <li>
+                               <i class="fa-solid fa-house-chimney"></i>
+                           </li>
+                      </a>
+
+                      <a href="#">
+                        <li>
+                            <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i>
+                        </li>
+                      </a>
+            
+                      <div class="search" id="searchinput2">
+                        <input type="search">
+                        <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                      </div>
+
+                      <a href="#">
+                        <li>
+                            <i class="fa-solid fa-user" id="user-lap" onclick="homeF()" ></i>
+                        </li>
+                      </a>
+
+                </ul>
+            </div>
+
+      </div>
+
+  </header>
+
+    <div class="home">
+        
+          <div class="main_slide">
+           
+              <div>
+                 <h1>Enjoy <span>Delicious Food</span> in Your Healthy Life.</h1>
+                 <p>"A restaurant is a fantasy—a kind of living fantasy in which diners are the most important members of the cast.Eating is not just a material pleasure. Eating well gives a spectacular joy to life." </p>
+            
+                 <button class="red_btn">Visit Now<i class="fa-solid fa-arrow-right-long"></i></button>
+              </div>
+
+              <div>
+                  <img src="images/dish plate.jpg" alt="plate">
+               </div>
+            
+          </div>
+
+          <div class="food-items">
+
+              <div class="item">
+                  <div>
+                    <img src="images/food item1.jpg" alt="food items">
+                  </div>
+                  <h3>Curry MAinCourse</h3>
+                  <p>Dal Tadka, Chole, Rajma, Aloo Matar,Dal Makhani</p>
+                  <button class="red_btn">See Menu</button>
+              </div>
+
+              <div class="item">
+                <div>
+                  <img src="images/Bhutta Bhel.jpeg" alt="food items">
+                </div>
+                <h3>Chaat Special</h3>
+                <p>Dahi Vade, Bhuta Bhel, Aloo tikki, Papdi Chaat</p>
+                <button class="red_btn">See Menu</button>
+              </div>
+
+              <div class="item">
+                <div>
+                   <img src="images/Deserts.jpg" alt="food items">
+                </div>
+                <h3>Desert</h3>
+                <p>Gulab Jamun, Kesar Kheer, Gajar/Moong Halwa, Ice cream</p>
+                <button class="red_btn">See Menu</button>
+              </div>
+
+              <div class="item">
+                <div>
+                  <img src="images/IndianBread.jpg" alt="food items">
+                </div>
+                <h3>Indian Bread</h3>
+                <p>Tava Roti,Paranthe,Laccha Parantha, Missi Roti </p>
+                <button class="red_btn">See Menu</button>
+             </div>
+
+             <div class="item">
+              <div>
+                <img src="images/Naan.jpeg" alt="food items">
+              </div>
+              <h3>Tandoori special</h3>
+              <p>Paneer Tikka, Afgani Chaamp, Malai Chaamp, Seek Kabab</p>
+              <button class="red_btn">See Menu</button>
+           </div>
+
+           <div class="item">
+            <div>
+              <img src="images/Thandai.jpeg" alt="food items">
+            </div>
+            <h3>Beverages</h3>
+            <p>Tea, Coffee, Smoothie, Thandi Lassi, Soft drinks</p>
+            <button class="red_btn">See Menu</button>
+           </div>
+
+         <div class="item">
+            <div>
+              <img src="images/Red Sauce Pasta.jpg" alt="food items">
+            </div>
+            <h3>Snacks</h3>
+            <p>Pasta, Munchurian, Chowmein, Chilly Potato, Momos, Pav Bhaji</p>
+            <button class="red_btn">See Menu</button>
+          </div>
+
+          </div>
+
+          <div class="main_slide2">
+
+              <div class="fooding">
+                    <img src="images/fooding5.jpg" alt="">
+              </div>
+
+              <div class="question">
+                   <div>
+                      <h2>Why People Choose Us?</h2>
+                   </div>
+
+                   <div>
+                       <div class="q-ans">
+                          
+                             <div>
+                                 <img src="images/fooding3.png" alt="">
+                             </div>
+
+                              <div>
+                                   <h4>Choose Your Favourite 1</h4>
+                                    <p> Quality of Service</p>
+                              </div>
+
+                        </div>
+
+                        <div class="q-ans">
+                          
+                          <div>
+                              <img src="images/Veg Sandwhich.jpg" alt="">
+                          </div>
+
+                           <div>
+                                <h4>Choose Your Favourite 2 </h4>
+                                 <p> Ambiance and Value of Money</p>
+                           </div>
+
+                         </div>
+
+                         <div class="q-ans">
+                          
+                              <div>
+                                  <img src="images/fooding2.jpeg" alt="">
+                              </div>
+
+                              <div>
+                                   <h4>Choose Your Favourite 3 </h4>
+                                     <p>Homely feeling , freshness of Food</p>
+                              </div>
+
+                          </div>
+
+                    </div>
+              
+              </div>
+
+          </div>
+
+          <div class="main_slide3">
+            
+                <div class="fav-head">
+                  <h3>Our Popular Items!!</h3>
+                  <p>A Slice of Pie without Cheese is like a Kiss without Squeeze</p>
+                </div>
+
+                <div class="fav-food">
+
+                    <div class="item">
+                        <div>
+                          <img src="images/Paneer Tikka.jpg" alt="">
+                        </div>
+                        <h3> Paneer Tikka</h3>
+                        <p>GOOD FOOD GOOD MOOD!!</p>
+                        <p class="fav-price">Rs 120/-</p>
+                    </div>
+
+                    <div class="item">
+                      <div>
+                        <img src="images/food item1.jpg" alt="">
+                      </div>
+                      <h3>Kadai Paneer</h3>
+                      <p>GOOD FOOD GOOD MOOD!!</p>
+                      <p class="fav-price">Rs 210/-</p>
+                    </div>
+
+                    <div class="item">
+                      <div>
+                        <img src="images/Seek Kabab.jpeg" alt="">
+                      </div>
+                      <h3> Seekh Kabab</h3>
+                      <p>GOOD FOOD GOOD MOOD!!</p>
+                      <p class="fav-price">Rs 180/-</p>
+                   </div>
+
+                   <div class="item">
+                    <div>
+                      <img src="images/Chole.jpeg" alt="">
+                    </div>
+                    <h3> Chole Bhature </h3>
+                    <p>GOOD FOOD GOOD MOOD!!</p>
+                    <p class="fav-price">Rs 180/-</p>
+                 </div>
+    
+
+
+                   <div class="item">
+                    <div>
+                      <img src="images/Thali 1.webp" alt="">
+                    </div>
+                    <h3>Shahi Veg Thali</h3>
+                    <p>GOOD FOOD GOOD MOOD!!</p>
+                    <p class="fav-price">Rs 380/-</p>
+                 </div>
+
+                 <div class="item">
+                  <div>
+                    <img src="images/Gulab Jamun.jpeg" alt="">
+                  </div>
+                  <h3>Gulaab Jamun </h3>
+                  <p>GOOD FOOD GOOD MOOD!!</p>
+                  <p class="fav-price">Rs 120/-</p>
+               </div>
+
+               
+             <div class="item">
+              <div>
+                <img src="images/Mixed Veg Pakora.jpeg" alt="">
+              </div>
+              <h3>Mix Veg Pakora</h3>
+              <p>GOOD FOOD GOOD MOOD!!</p>
+              <p class="fav-price">Rs 180/-</p>
+           </div>
+
+           <div class="item">
+               <div>
+                  <img src="images/Malpua.jpeg" alt="">
+                </div>
+                <h3>Kesar Malpua </h3>
+                <p>GOOD FOOD GOOD MOOD!!</p>
+                <p class="fav-price">Rs 150/-</p>
+             </div>
+  
+          </div>
+            
+
+           <div class="dsgn"></div>
+
+                
+          </div>
+          
+          <div class="main_slide4">
+            
+                <div class="chef-feed">
+
+                    <h2>Customer <span style="color:red;">Feedback</span></h2>
+                    <p font-weight="bold">Thanks for Dining with Us!</p>
+
+                    <div class="letter-input">
+                      <div>
+                          <input type="email" placeholder="Please share with us Your valuable Experience">
+                      </div>
+                      <button class="red_btn">Submit</button>
+                    </div>
+                    
+                    <p>We'd love to hear what you thought and as a little bonus, we're throwing in <span>10% discount</span>  on your next visit.</p>
+                    <p>"Everything went brilliantly-the Surprise worked perfectly and Steve was fabulous. Not only a Great Chef but he also addresed everybody throughout the evening answering all their questions. He looked after everybody really well and the food was terrific.Thanks for setting it all up and You can be assured that if i try this again you will be top of my list."</p>
+                     
+                    <div class="chef-detail">
+
+                        <div class="brandlogo">
+                          <img src="images/logo8.jpg" width="65px" border-radius="50%" alt="">
+                        </div>
+
+                        <div>
+                           <h6>"GOOD FOOD GOOD MOOD"</h6>
+                           <p>Fresh, Delicious Meals for Your Optimum Health & Fitness.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="chef-vic">
+                    
+                        <div>
+                            <i class="fa-solid fa-hand-peace"></i>
+                            <h4>68</h4>
+                            <p>Wonderful Taste of Dish</p>
+                        </div>
+                  
+                        <div>
+                             <i class="fa-solid fa-trophy"></i>
+                             <h4>956</h4>
+                             <p>Best restaurant 5-Star!</p>
+                        </div>
+
+                    </div>
+
+                </div>  
+
+                <div class="chef">
+                    <img src="images/chef1.jpg"   alt="">
+                </div>
+
+                
+
+           
+          </div>
+
+          <div class="letter">
+               <div class="letter-head">
+                  <h2>Subscribe <span>Newsletter</span></h2>
+               </div>
+
+               <div class="letter-input">
+                  <div>
+                      <input type="email" placeholder="Enter Your Email">
+                  </div>
+                  <button class="red_btn">Subscribe</button>
+               </div>
+          </div>
+
+    </div>
+
+    <div class="footer">
+
+          <div class="footer-1">
+              <div class="logo">
+                  <img src="images/logo8.jpg" width="65px"alt="">
+              </div>
+
+              <div>
+                  <address>
+                    <p><em>Email :</em>goodfoodgoodmood@gmail.com</p>
+                    <p><em>Youtube :</em>GOOD FOOD GOOD MOOD</p>
+                    <p><em>Address :</em>Floor-2, Block-1, Knowledge Park 2<br>Greater Noida, India</p>
+                  </address>
+              </div>
+
+           </div>
+
+           <div class="footer-2">
+              <img src="images/logo2.png" width="100px" alt="">
+              <h2>Powered by : <em> "Good Food Good Mood"</em></h2>
+           </div>
+     </div>
+
+     <div class="container">
+
+      <div class="form-box">
+
+           <div class="home-btn" onclick="homeF()"><h1 id="title">Sign Up</h1>
+           </div>
+
+           <div class="popup">
+           <form action="/" method="POST" onsubmit="return confirm('Are you Sure?');">
+            
+                 <div class="input-group">
+
+                     <div class="close-btn" onclick="crossbtn()">&times;</div>
+                     
+
+                     <div class="input-field" id="nameField">
+                       <i class="fa-solid fa-house-user"></i>
+                       <input type="text" placeholder="Your Name" required>
+                     </div>
+
+                     <div class="input-field">
+                       <i class="fa-solid fa-envelope-circle-check"></i>
+                       <input type="email" placeholder="Email Id" required>
+                     </div>
+
+                     <div class="input-field">
+                       <i class="fa-solid fa-house-lock"></i>
+                       <input type="password" placeholder="Password" required>
+                     </div>
+
+                      
+                  </div>
+
+                 <div class="form-element">
+                    <p class="reset-pass">Forget Password? <a href="#"> Click Here</a> </p>
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember Me</label>
+                 </div>
+
+                 
+                <div class="btn-field">
+                        <button type="button" id="signupBtn">Sign Up</button>
+                        <button type="button" id="signinBtn" class="disable">Sign In</button>
+               </div>
+
+               <div class="submit-btn">
+                <button type="submit" onclick="closeForm()">Submit</button>
+               </div>
+                 
+               
+
+           </form>
+           </div>
+      </div>
+   </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
